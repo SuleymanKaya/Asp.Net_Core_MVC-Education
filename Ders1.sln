@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ders1", "Ders1.csproj", "{08D98A9D-2851-4906-8A9A-39E6B794B45C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ders2_Kitaplik", "..\Ders2_Kitaplik\Ders2_Kitaplik.csproj", "{E8F5F873-D954-4C6E-9D08-F01EE47299FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08D98A9D-2851-4906-8A9A-39E6B794B45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D98A9D-2851-4906-8A9A-39E6B794B45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D98A9D-2851-4906-8A9A-39E6B794B45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D98A9D-2851-4906-8A9A-39E6B794B45C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8F5F873-D954-4C6E-9D08-F01EE47299FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8F5F873-D954-4C6E-9D08-F01EE47299FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8F5F873-D954-4C6E-9D08-F01EE47299FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8F5F873-D954-4C6E-9D08-F01EE47299FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9CA03330-E232-4819-87D3-B09D372FE31A}
+	EndGlobalSection
+EndGlobal
