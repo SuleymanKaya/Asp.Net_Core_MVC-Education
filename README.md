@@ -1,5 +1,5 @@
-# Asp.Net Core MVC Education
-Asp.Net Core MVC education codes step by step
+# Asp.Net Core MVC Education (TURKISH)
+Asp.Net Core MVC Turkish education codes step by step
 
 ## Course-1
 - "Hello World"
