@@ -1,5 +1,5 @@
 # Asp.Net Core MVC Education (TURKISH)
-Asp.Net Core MVC Turkish education codes step by step
+Asp.Net Core MVC Turkish education codes step by step. These are the codes I prepared during the process of learning Asp.Net Core MVC. You can find all the topics from end to end.
 
 ## Course-1
 - "Hello World"
