@@ -11,3 +11,9 @@ Asp.Net Core MVC Turkish education codes step by step. These are the codes I pre
 - Layout and RenderBody
 - wwRoot File and Client Side Library
 
+## Course-2
+- Partial View
+- View Component
+- View Start
+- Html Raw
+- Statik Web Project
