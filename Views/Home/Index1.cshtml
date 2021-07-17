@@ -1,0 +1,32 @@
+﻿@model List<Ders2_Kitaplik.Models.Kitaplar>
+
+
+@{/*
+     ViewData["Title"] = "Index1";
+     Layout = "~/Views/Shared/_Layout.cshtml"; 
+          */
+        }
+        
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<table class="table table-bordered">
+    <tr>
+        <td class="font-weight-bold">ID</td>
+        <td>Kitap Adi</td>
+        <td>Yazar</td>
+    </tr>
+
+    @foreach (var kt in Model)
+    {
+        <tr>
+            <td>@kt.Id</td>
+            <td>@kt.KitapAdi</td>
+            <td>@kt.Yazar</td>
+        </tr>
+    }
+
+</table>
+@await Component.InvokeAsync("YeniKitaplar")
+
+@Html.Partial("_PartialView")
+

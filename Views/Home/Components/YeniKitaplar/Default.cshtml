@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Ders2_Kitaplik.Models.Kitaplar>
+
+<table class="table table-bordered">
+    <tr>
+        <td class="font-weight-bold">ID</td>
+        <td class="font-weight-bold">Kitap Adı</td>
+        <td class="font-weight-bold">Yazar</td>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.KitapAdi</td>
+            <td>@x.Yazar</td>
+        </tr>
+    }
+
+</table>
