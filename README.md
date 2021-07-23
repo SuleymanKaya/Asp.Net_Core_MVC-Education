@@ -1,0 +1,17 @@
+## Course-3
+- Entity Framework, Entity Design, Entity SQL and Entity Tools
+- Models
+- Context Class
+- Migration
+- Adding Layout
+- Sidebar
+- Bootstrap and Extracting Data on the Project
+- Add New Data on the Project
+- Delete Existing Data on the Project
+- Update Data on the Project
+- Update and Delete Column from Database with Migration
+- Build Relation Between Database Tables with Migration
+- Using Dropdownlist
+- Show Table Details
+- Adding Login Page to the Project
+- Authorization And Authentication
