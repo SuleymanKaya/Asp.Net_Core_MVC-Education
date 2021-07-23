@@ -1,0 +1,22 @@
+﻿@model Ders3.Models.Department
+
+@{
+    ViewData["Title"] = "DepartmanGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+@using (Html.BeginForm("DepartmanGüncelle", "Departments", FormMethod.Post))
+{
+    <b>Departman Id</b>
+    <br />
+    @Html.TextBoxFor(x => x.Id)
+    <br />
+    <b>Departman Adı</b>
+    <br />
+    @Html.TextBoxFor(x => x.DepartmentName)
+    <br />
+    <br />
+    <button class="btn btn-info" style="background-color:#ff6a00; color:white">Departman Güncelle</button>
+
+}
+

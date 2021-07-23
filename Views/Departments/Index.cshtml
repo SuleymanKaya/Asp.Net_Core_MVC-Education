@@ -1,0 +1,31 @@
+﻿@using Ders3.Models
+@model List<Department>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Departman</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.DepartmentName</td>
+            <td><a href="/Departments/DepartmanSil/@x.Id" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Departments/DepartmanGetir/@x.Id" class="btn btn-success">Güncelle</a></td>
+            <td><a href="/Departments/DepartmanDetay/@x.Id" class="btn btn-info">Detay</a></td>
+        </tr>
+    }
+
+</table>
+<a href="/Departments/YeniDepartman/" class="btn btn-primary">Yeni Departman</a>
+

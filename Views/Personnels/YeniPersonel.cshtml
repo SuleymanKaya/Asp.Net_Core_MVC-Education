@@ -1,0 +1,28 @@
+﻿@model Ders3.Models.Personnel
+
+@{
+    ViewData["Title"] = "YeniPersonel";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<form class="form-group" method="post">
+    <b>Personel Adı</b>
+    <br />
+    @Html.TextBoxFor(x => x.Name)
+    <br />
+    <b>Personel Soyadı</b>
+    <br />
+    @Html.TextBoxFor(x => x.Surname)
+    <br />
+    <b>Şehir</b>
+    <br />
+    @Html.TextBoxFor(x => x.City, new { @class = "form-control" })
+    <br />
+    <b>Departman</b>
+    <br />
+    @Html.DropDownListFor(x => x.Department.Id, (List<SelectListItem>)ViewBag.dgr)
+    <br />
+    <br />
+    <button class="btn btn-info">Personel Ekle</button>
+</form>
+

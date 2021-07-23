@@ -1,0 +1,36 @@
+﻿@using Ders3.Models
+@model List<Personnel>
+
+@{
+    ViewData["Title"] = "DepartmanDetay";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<h2>@ViewBag.brmad Departmanı</h2>
+<br />
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>City</th>
+        <th>Departman</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.Id</td>
+            <td>@x.Name</td>
+            <td>@x.Surname</td>
+            <td>@x.City</td>
+            <td>@x.Department.DepartmentName</td>
+            <td><a href="/Departments/DepartmanSil/@x.Id" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Departments/DepartmanGetir/@x.Id" class="btn btn-success">Güncelle</a></td>
+        </tr>
+    }
+
+</table>
+
