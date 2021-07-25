@@ -1,6 +1,7 @@
 ## Course-3
 - Entity Framework, Entity Design, Entity SQL and Entity Tools
 - Models
+- Data Validation
 - Context Class
 - Migration
 - Adding Layout
